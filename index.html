@@ -228,12 +228,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3><span class="frist"></span>İLETİŞİME GEÇİN <span class="second"></span></h3>
 					<p>Bizimle iletişime geçmek, fiyat istemek ve bilgi almak için bu formu kullanabilirsiniz.</p>
 				</div>
-				<div class="col-md-9 getintouch-left">
-					<div class="contact-form col-md-10">
-						<h3>İletinizi buraya yazabilrisiniz!</h3>
+				<div class="col-md-12 getintouch-left" id="form">
+					
+					<div class="contact-form col-md-10 col-md-offset-1">
 						<form action="https://formspree.io/info@rectans.me" method="post">
-							<input name="name" type="text"> <input name="_replyto" placeholder="Email adresiniz" type="email"> <input type="submit" value="Gönder"> <input name="_next" type="hidden" value="//site.io/thanks.html">
+							<input name="name" placeholder="Adınız / Firma Adı" type="text"> 
+							<input name="_replyto" placeholder="Email adresiniz" type="text"> 
+							<textarea name="message" placeholder="Mesajınız..."></textarea>
+							<input type="submit" value="Gönder" class="pull-right">
+							<input name="_next" type="hidden" value="//rectans.me#thanks">
 						</form>
+					</div>
+				</div>
+				<style>#thanks{display:none}#thanks:target{display:block}</style>
+				<div class="col-md-9" id="thanks">
+					<div class="alert alert-success alert-dismissable">
+						<a href="#form" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+						<strong>Teşekkürler!</strong> Mesajınızı aldık.Size elimizden gelen en hızlı şekilde geri döneceğiz.
 					</div>
 				</div>
 			</div>
