@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -80,138 +79,121 @@
         <div class="clearfix"></div>
     </div>
     <div class="features" id="fea">
-        		<div class="screen-shot-gallery" id="gallery">
-			<div class="container">
-				<div class="section-head text-center">
-					<h3><span class="frist"></span>YAPTIKLARIMIZ <span class="second"></span></h3>
-					<p></p>
-				</div>
-			</div><!--sreen-gallery-cursual-->
-			<style>
-			   .owl-carousel .owl-item img{
-				   padding: 7px;
-				   width:100%;
-			   }
-			</style>
-			<div class="sreen-gallery-cursual">
-				<!-- requried-jsfiles-for owl -->
-				<link href="css/owl.carousel.css" rel="stylesheet"><!-- //requried-jsfiles-for owl -->
-				<!-- start content_slider -->
-				<div class="container">
-					<div class="owl-carousel" id="references">
-						<div class="item"><img alt="içerik yönetim sistemi - cms" class="lazyOwl" data-src="images/cms.jpg"></div>
-						<div class="item"><img alt="kafem - kafe takip otomasyonu" class="lazyOwl" data-src="images/kafem.jpg"></div>
-						<div class="item"><img alt="vannucci - kurumsal website" class="lazyOwl" data-src="images/vannucci.jpg"></div>
-						<div class="item"><img alt="nilkon - kurumsal website" class="lazyOwl" data-src="images/nilkon.jpg"></div>
-					</div>
-				</div><!--//sreen-gallery-cursual-->
-			</div>
-		</div>
+        <div class="screen-shot-gallery" id="gallery">
+            <style>
+            .owl-carousel .owl-item img {
+                padding: 7px;
+                width: 100%;
+            }
+            </style>
+            <div class="sreen-gallery-cursual">
+                <!-- requried-jsfiles-for owl -->
+                <link href="css/owl.carousel.css" rel="stylesheet">
+                <!-- //requried-jsfiles-for owl -->
+                <!-- start content_slider -->
+                <div class="container">
+                    <div class="owl-carousel" id="references">
+                        <div class="item"><img alt="içerik yönetim sistemi - cms" class="lazyOwl" data-src="images/cms.jpg"></div>
+                        <div class="item"><img alt="kafem - kafe takip otomasyonu" class="lazyOwl" data-src="images/kafem.jpg"></div>
+                        <div class="item"><img alt="vannucci - kurumsal website" class="lazyOwl" data-src="images/vannucci.jpg"></div>
+                        <div class="item"><img alt="nilkon - kurumsal website" class="lazyOwl" data-src="images/nilkon.jpg"></div>
+                    </div>
+                </div>
+                <!--//sreen-gallery-cursual-->
+            </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="getintouch" id="contact">
-            <div class="container">
-                <div class="text-center section-head">
-                    <h3><span class="frist"></span>İLETİŞİME GEÇİN <span class="second"></span></h3>
-                    <p>Bizimle iletişime geçmek, fiyat istemek ve bilgi almak için bu formu kullanabilirsiniz.</p>
+    </div>
+    <div class="clearfix"></div>
+    <div class="getintouch" id="contact">
+        <div class="container">
+            <div class="text-center section-head">
+                <h3><span class="frist"></span>İLETİŞİME GEÇİN <span class="second"></span></h3>
+                <p>Bizimle iletişime geçmek, fiyat istemek ve bilgi almak için bu formu kullanabilirsiniz.</p>
+            </div>
+            <div class="col-md-12 getintouch-left" id="form">
+                <div class="col-md-10 col-md-offset-1 contact-form">
+                    <form action="https://formspree.io/info@rectans.me" method="post">
+                        <input type="text" name="name" placeholder="Adınız / Firma Adı">
+                        <input type="text" name="_replyto" placeholder="Email adresiniz">
+                        <textarea name="message" placeholder="Mesajınız..."></textarea>
+                        <input type="submit" value="Gönder" class="pull-right">
+                        <input type="hidden" name="_next" value="http://rectans.me#thanks">
+                    </form>
                 </div>
-                <div class="col-md-12 getintouch-left" id="form">
-                    <div class="col-md-10 col-md-offset-1 contact-form">
-                        <form action="https://formspree.io/info@rectans.me" method="post">
-                            <input type="text" name="name" placeholder="Adınız / Firma Adı">
-                            <input type="text" name="_replyto" placeholder="Email adresiniz">
-                            <textarea name="message" placeholder="Mesajınız..."></textarea>
-                            <input type="submit" value="Gönder" class="pull-right">
-                            <input type="hidden" name="_next" value="http://rectans.me#thanks">
-                        </form>
-                    </div>
-                </div>
-                <style>
-                #thanks {
-                    display: none
-                }
-                
-                #thanks:target {
-                    display: block
-                }
-                </style>
-                <div class="col-md-9" id="thanks">
-                    <div class="alert alert-dismissable alert-success">
-                        <a href="#form" aria-label="close" class="close" data-dismiss="alert">×</a>
-                        <strong>Teşekkürler!</strong> Mesajınızı aldık.Size elimizden gelen en hızlı şekilde geri döneceğiz.
-                    </div>
+            </div>
+            <style>
+            #thanks {
+                display: none
+            }
+            
+            #thanks:target {
+                display: block
+            }
+            </style>
+            <div class="col-md-9" id="thanks">
+                <div class="alert alert-dismissable alert-success">
+                    <a href="#form" aria-label="close" class="close" data-dismiss="alert">×</a>
+                    <strong>Teşekkürler!</strong> Mesajınızı aldık.Size elimizden gelen en hızlı şekilde geri döneceğiz.
                 </div>
             </div>
         </div>
-        <div class="text-center show-reel">
-            <div class="container">
-                <h5>HAKKIMIZDA</h5>
-                <h4>Rectans, 4 kişiden oluşan, teknolojiyi takip eden, yazılım ve internet teknolojisi üreten bir topluluktur.</h4>
-                <h4>İşimizi rahat ettiğimiz yerde, severek, heyecanla yapıyoruz.</h4>
-            </div>
+    </div>
+    <div class="text-center show-reel">
+        <div class="container">
+            <h5>HAKKIMIZDA</h5>
+            <h4>Rectans, 4 kişiden oluşan, teknolojiyi takip eden, yazılım ve internet teknolojisi üreten bir topluluktur.</h4>
+            <h4>İşimizi rahat ettiğimiz yerde, severek, heyecanla yapıyoruz.</h4>
         </div>
-        <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    </div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-92548323-1', 'auto');
-        ga('send', 'pageview');
-        </script>
-        <script src="js/vendor.min.js"></script>
-        <script>
-        $(document).ready(function() {
-            $("#slider").responsiveSlides({
-                auto: true,
-                pager: true,
-                nav: true,
-                speed: 500,
-                namespace: "callbacks",
-                before: function() {
-                    $('.events').append("<li>before event fired.<\/li>");
-                },
-                after: function() {
-                    $('.events').append("<li>after event fired.<\/li>");
-                }
-            });
-            $("#references").owlCarousel({
-                items: 4,
-                stagePadding: 50,
-                margin: 10,
-                lazyLoad: true,
-                autoPlay: true,
-            });
-
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 1000);
-            });
-            $().UItoTop();
-            var pull = $('#pull');
-            menu = $('nav ul');
-            menuHeight = menu.height();
-            $(pull).on('click', function(e) {
-                e.preventDefault();
-                menu.slideToggle();
-            });
-            $(window).resize(function() {
-                var w = $(window).width();
-                if (w > 320 && menu.is(':hidden')) {
-                    menu.removeAttr('style');
-                }
-            });
+    ga('create', 'UA-92548323-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script src="js/vendor.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#references").owlCarousel({
+            items: 4,
+            stagePadding: 50,
+            margin: 10,
+            lazyLoad: true,
+            autoPlay: true,
         });
-        </script>
+
+        $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000);
+        });
+        $().UItoTop();
+        var pull = $('#pull');
+        menu = $('nav ul');
+        menuHeight = menu.height();
+        $(pull).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+        $(window).resize(function() {
+            var w = $(window).width();
+            if (w > 320 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+    });
+    </script>
     </div>
     <a href="#" id="toTop" style="display: none"></a>
 </body>
