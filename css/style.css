@@ -692,6 +692,9 @@ span.second{
 	padding: 1em 1em;
 	font-size: 0.9em;
 }
+.contact-form input[type="text"]:focus, .contact-form textarea:focus {
+    border-bottom: 1px ridge #BBBBBB;
+}
 .contact-form textarea{
 	height: 120px;
 	outline:none;
