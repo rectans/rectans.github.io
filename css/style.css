@@ -756,7 +756,7 @@ span.second{
 	background-position: 0px -171px;
 }
 .getintouch {
-	border-bottom: 10px solid #6f6f6f;
+	border-bottom: 5px solid #6f6f6f;
 	padding: 2em 0 0 0;
 }
 /*--- //getintouch -----*/
@@ -764,6 +764,7 @@ span.second{
 .footer-grid p{
 	font-size:0.875em;
 	line-height:1.8em;
+	margin-top: 1.3em;
 }
 .footer-grid h3{
 	font-size:1.2em;
