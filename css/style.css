@@ -693,7 +693,7 @@ span.second{
 	font-size: 0.9em;
 }
 .contact-form input[type="text"]:focus, .contact-form textarea:focus {
-    border-bottom: 1px ridge #BBBBBB;
+    border-bottom: 1px ridge #999999;
 }
 .contact-form textarea{
 	height: 120px;
